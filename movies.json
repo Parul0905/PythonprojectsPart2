@@ -1,0 +1,22 @@
+[
+   {
+      "title": "saiyaara",
+      "genre": "romantic movie",
+      "rating": 10.0
+   },
+   {
+      "title": "shiddat",
+      "genre": "romantic movie",
+      "rating": 10.0
+   },
+   {
+      "title": "cybersquad",
+      "genre": "cyberattacks awareness",
+      "rating": 10.0
+   },
+   {
+      "title": "3-idiot",
+      "genre": "deep friendship movie",
+      "rating": 10.0
+   }
+]
