@@ -14,7 +14,11 @@ if not os.path.exists(FILENAME):
 
 
 def log_weather():
-    city = input('Enter the city: ').strip()
+    try:
+        city = input("Enter the city: ").strip()
+    except KeyboardInterrupt:
+        print("\nProgram cancelled by user.")
+        exit()
     if not city:
         print('City name cannot be empty.')
         return
